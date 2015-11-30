@@ -1,5 +1,6 @@
 """Documentation Strigs"""
 
+
 def my_function():
     """Do nothing, bt document it.
 
@@ -8,4 +9,3 @@ def my_function():
     pass
 
 print my_function.__doc__
-

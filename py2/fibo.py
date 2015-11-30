@@ -7,9 +7,9 @@ def fib(max_num):
         first, second = second, first + second
 
 # Now call the fuction we just defined.
-fib(2000)
-print
-print fib(0)
+#fib(2000)
+#print
+#print fib(0)
 
 #"""Write an another Fibonacci series up to max_num."""
 def fib2(max_num):
@@ -21,5 +21,11 @@ def fib2(max_num):
         var_a, var_b = var_b, var_a + var_b
     return result
 
-F100 = fib2(100)
-print F100
+#F100 = fib2(100)
+#print F100
+
+if __name__ == "__main__":
+    import sys
+    fib(int(sys.argv[1]))
+
+
