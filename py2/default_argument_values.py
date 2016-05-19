@@ -15,8 +15,7 @@ def ask_ok(prompt, retries=4, complaint='Yes or no, please!'):
 
 I = 5
 def f_2(arg=I):
-    """The default values are evaluated at the point of function definition in the defining
-    scope."""
+    """The default values are evaluated at the point of function definition in the defining scope."""
     print arg
 
 I = 6
@@ -39,3 +38,5 @@ def f_4(a, L=None):
 print f_4(1)
 print f_4(2)
 print f_4(3)
+
+print f_2.__doc__

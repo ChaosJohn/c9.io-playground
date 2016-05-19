@@ -6,7 +6,11 @@ def parrot(voltage, state='a stiff', action='voom'):
     print "if you put", voltage, "volts through it.",
     print "E's", state, "!"
 
-D = {"voltage": "four million", "state": "bleedin' demised", "action": "VOOM"}
+# D = {"voltage": "four million", "state": "bleedin' demised", "action": "VOOM"}
+D = {
+        "voltage": "four million",
+        "state": "bleedin' demised",
+        "action": "VOOM",
+        }
 
 parrot(**D)
-
